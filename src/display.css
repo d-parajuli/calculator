@@ -1,5 +1,6 @@
 .display{
- width: 290px;
+ width: 240px;
  height: 80px;
  background-color: gray;
+ border-radius: 8px;
 }

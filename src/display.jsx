@@ -11,6 +11,7 @@ class Display extends Component {
       <div className="display">
       <h1> {this.props.input} {this.props.first} {this.props.operator} {this.props.input_two} </h1>
 
+
       </div>
   );
     }

@@ -3,9 +3,6 @@
   margin:auto;
 }
 
-
-
-
 .App-header {
   min-height: 100vh;
   display: flex;
@@ -16,11 +13,97 @@
   color: white;
 }
 
-
-.Buttons{
+.Keypad{
   background-color: #282c34;
   display: block;
   width: 290px;
-  height: 250px;
+  height: 400px;
+}
 
+
+.operator{
+  color: #fff !important;
+  background: #ed3330;
+  padding: 20px;
+  border-radius: 12px;
+  border: none;
+  transition: all 0.4s ease 0s;
+  width: 60px;
+}
+
+.operator:hover {
+background: #434343;
+letter-spacing: 1px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+
+.num{
+  color: #fff !important;
+  background: gray;
+  padding: 20px;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.4s ease 0s;
+  width: 60px;
+}
+
+.num:hover{
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.reset{
+  color: #fff !important;
+  background: #ed3330;
+  padding: 20px;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.4s ease 0s;
+  width: 180px;
+}
+
+.reset:hover{
+  background: #434343;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.zero{
+  color: #fff !important;
+  background: gray;
+  padding: 20px;
+  border-radius: 8px;
+  border: none;
+  transition: all 0.4s ease 0s;
+  width: 120px;
+}
+
+.zero:hover{
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.calc{
+border-radius: 8px;
+margin: 0 auto;
+ width: 260px;
+ padding: 10px;
+ background-color: black;
+}
+
+.keypad{
+ margin: 0 auto;
 }
