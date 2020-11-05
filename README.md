@@ -2,9 +2,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Preview
 
-<video width="320" height="240" controls>
-  <source src="video.mov" type="video/mp4">
-</video>
+![alt text](https://github.com/d-parajuli/calculator/blob/master/public/calc.gif "Application Preview")
+
+
 
 ## Available Scripts
 
