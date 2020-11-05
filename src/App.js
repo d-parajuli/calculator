@@ -108,9 +108,9 @@ reset = (e) => {
 
     render() {
       return (
-<div className="calc-wrapper">
-  <div className= "calc">
-      <Display input={this.state.input} first={this.state.first_input} input_two={this.state.second_round} operator={this.state.operator} result={this.state.result}/>
+    <div className="calc-wrapper" >
+      <div className= "calc mt-5">
+        <Display input={this.state.input} first={this.state.first_input} input_two={this.state.second_round} operator={this.state.operator} result={this.state.result}/>
       <div className="keypad">
        <ButtonToolbar>
       <Button value="clear" type='button' onClick={this.reset} size="lg" bsPrefix= 'reset'>Reset</Button>
@@ -148,7 +148,7 @@ reset = (e) => {
       </ButtonToolbar>
       </div>
       </div>
-      </div>
+</div>
 
 
 
